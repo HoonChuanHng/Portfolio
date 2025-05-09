@@ -19,7 +19,7 @@ As part of this project, I was responsible for developing both the **front-end**
   
 ### Database Management
 - I used **SQL** to design and manage the database through **phpMyAdmin**.
-- Tables were created to store and manage **e-waste reports** effectively.
+- Tables were created to store and retrieved **e-waste reports** effectively.
 
 ## Technologies Used
 
@@ -28,17 +28,20 @@ As part of this project, I was responsible for developing both the **front-end**
 - **JavaScript**
 - **PHP**
 - **MySQL (phpMyAdmin)**
-- **Chart.js** (for bar chart visualization)
+- **Chart.js** (bar chart )
 
 ## How to Run
 
-1. Import the database using `phpMyAdmin`.
-2. Place all files in your XAMPP `htdocs` folder (or similar server).
-3. Start **Apache** and **MySQL** in your server environment (e.g., XAMPP).
-4. Open `index.html` or the appropriate PHP file in your browser to view the application.
+1. Import the file **statistical_reports.sql** in **phpMyAdmin** with database name **ewaste**.
+2. Extract all files in your XAMPP **htdocs** folder. 
+3. Start **Apache** and **MySQL** in your server environment, such as **XAMPP**.
+4. Open **buySellRequest.html**
+5. Pasting **http://localhost/e-waste%20management%20subparts/project(latest)/index.php** in your browser.
 
-## Features
+## Main Features
 
-- Form-based data submission for e-waste reports.
+- Submitted forms viewing.
+- Report viewing via bar chart.
+- Form filling.
 - Real-time display of e-waste statistics using bar charts.
 - User-friendly interface and responsive design.
